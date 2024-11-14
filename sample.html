@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Schedule Checker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #6a5acd;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1.5px;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .schedule-box {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .train-time {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .train-time div {
+            width: 30%;
+            padding: 10px;
+            background-color: #e6e6fa;
+            border-radius: 8px;
+            transition: background 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+        .train-time div:hover {
+            background-color: #6a5acd;
+            color: white;
+        }
+        .train-info {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+        #home{
+            text-decoration: none;
+            border:2px solid;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(39, 208, 154);
+            color: rgb(0, 0, 0);
+            border: none;
+            float: right;
+            margin-top: 20px;
+            margin-right: 50px;
+            transition: transform 0.3s ease, background 0.3s ease , color 0.3s ease ;
+        }
+        #home:hover{
+            
+            color:rgb(255, 255, 255);
+            background-color: red;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Train Schedule Checker</h1>
+    </header>
+
+   <div id="back">
+    <a id="home" href="index.html">Go to Home</a>
+   </div>
+    <div class="container">
+        <div class="schedule-box">
+            <h2>Check Your Train Timing</h2>
+            <div class="train-time">
+                <div id="train1" onclick="showInfo('indian express: Departs at 9:00 AM and reach at 10:30 PM')">indian express</div>
+                <div id="train2" onclick="showInfo('Jat all exp: Departs at 11:30 AM and reach at 10:20 PM')">Jat all exp</div>
+                <div id="train3" onclick="showInfo('Svidik exp: Departs at 3:45 PM  and reach at 7:00 Am')">Svidik exp</div>
+            </div>
+            <div class="train-info" id="trainInfo">Click a train to see the schedule</div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Train Schedule Checker. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for updating train schedule info -->
+    <script>
+        function showInfo(info) {
+            document.getElementById('trainInfo').textContent = info;
+        }
+    </script>
+
+</body>
+</html>

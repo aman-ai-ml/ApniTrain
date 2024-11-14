@@ -1,0 +1,407 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+ nav ul li{
+    margin: 0 40px;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.2s ease;
+   
+}
+nav ul li a:hover{
+color: red;
+text-decoration:underline;
+}
+
+.sign{
+    float: right;
+    margin-top: -25px;
+    margin-right: 200px;
+    font-size: 25px;
+    transition: transform 0.3s ease  ;
+}
+.sign:hover{
+    transform: scale(1.05);
+}
+.sign a{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: rgb(13, 206, 227);
+    color: rgb(36, 34, 34);
+    border: none;
+    text-decoration: none;
+  
+    
+    
+}
+
+
+
+
+
+
+.logo{
+   
+    float: left;
+    width: 130px;
+    margin-left: 40px;
+    font-size: larger;
+    margin-top: -30px;
+   
+}
+#apni{
+    color: orange;
+    margin-left: 70px;
+    width: 400px;
+}
+#Train{
+    color: rgb(0, 132, 255);
+}
+.apnitrain{
+   
+   font-size: 25px;
+   margin-top: -50px;
+   margin-left: 100px;
+    
+}
+.slogan{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.fast{
+    font-size: 25px;
+    color: rgb(160, 94, 94);
+}
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+
+
+
+.body::before{
+    
+        content: "";
+        background-image: url(high-speed-train.webp); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.14; /* Set opacity to make the image transparent */
+        /* Ensure the image stays behind the content */
+       z-index: -1;
+      margin-bottom: -20px;
+}
+
+
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 530px;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: -50px;
+    
+
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+ .book{
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+
+    
+ }
+ .book:hover{
+    background-color: #218838;
+ }
+ .back{
+    background-color: rgb(37, 35, 35);
+  width: 102%;
+    /* width: 1905px; */
+    height: 500px;
+    margin-top: 500px;
+   
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-bottom: 100px;
+ }
+.qr{
+    margin-left: 50px;
+   margin-top: 150px;
+}
+.play{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 50px;
+    
+}
+.about{
+   margin-left: -600px;
+   text-align: center;
+   margin-top: -310px;
+   
+  
+}
+nav1 ul1{
+    color: white;
+}
+ul1 li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+li a {
+    color: white;
+
+    text-decoration: none;
+  
+}
+
+.hover{
+    transition: transform 0.3s ease , text-decoration 0.3s ease;
+}
+.hover:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+.add{
+    margin-left: 1300px;
+    color: white;
+    margin-top: -270px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.line{
+    margin-left: -5px;
+}
+.icon{
+    margin-left: 20px;
+   
+}
+.facebook{
+    margin-right: 20px;
+}
+.train{
+    margin-top: -400px;
+}
+.apni{
+    margin-top: -150px;
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.route{
+    margin-top: 700px;
+    font-size: 25px;
+    width: 1200px;
+    text-align: center;
+    display: inline;
+   
+    
+}
+
+.p1{
+    text-decoration: none;
+    color: rgb(15, 145, 178);
+    
+}
+.heading{
+    font-family: sans-serif;
+}
+#box1{
+    border:2px solid ;
+    width: 550px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 320px;
+    background-color: rgb(238, 203, 208);
+    border: none;
+   transition: transform 0.3s ease ,box-shadow 0.3s ease;
+   box-shadow: 2px 3px 8px rgb(119, 62, 62);
+}
+#box1:hover{
+    transform: scale(1.02);
+    
+}
+
+#box1 h3{
+    margin-left: 20px;
+   margin-top: 10px;
+   color: rgb(153, 6, 53);
+   font-size: 30px;
+}
+#box1 ul3 li {
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    margin-top: -20px;
+    
+    
+    
+}
+.box2:hover{
+    transform: scale(1.02);
+}
+.box2{
+    border:2px solid ;
+    width: 550px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    height: 320px;
+    background-color: rgb(149, 230, 243);
+    border: none;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+    box-shadow: 2px 3px 8px rgb(66, 137, 148);
+}
+.box2 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color:green;
+    font-size: 30px;
+}
+.box2 ul3 li{
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    margin-top: -20px;
+}
+.box3{
+     border:2px solid ;
+    width: 550px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: -200px;
+    /* margin-left: 40px; */
+    margin-left: 40px;
+    height: 320px;
+    background-color: rgb(237, 223, 194);
+    border: none;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+    box-shadow: 2px 3px 8px rgb(98, 52, 52);
+}
+.box3:hover{
+    transform: scale(1.02);
+}
+.box3 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(147, 102, 19);
+    font-size: 30px;
+}
+.box3 ul3 li{
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    margin-top: -20px;
+}
+#main_container{
+    display: flex;
+    justify-content: center;
+   margin-top: 150px;
+   font-size: 20px;
+   margin-right: 200px;
+   cursor: pointer;
+
+}
+.question h3{
+    font-size: 25px;
+    color: grey;
+}
+.question p{
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: grey;
+    
+}
+.click:hover{
+color: green;
+
+
+}
+.click{
+   
+        transition: opacity 0.5s ease-in-out;
+      
+}
+.now{
+    text-decoration: none;
+    color: white;
+    width: 500px;
+}
+.now:hover{
+    color:black;
+}

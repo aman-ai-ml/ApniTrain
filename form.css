@@ -1,0 +1,132 @@
+#main{
+
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+   width: 900px;
+     box-shadow: 2px  2px 4px 6px black; 
+     background: linear-gradient(to right, black, rgb(7, 7, 103)); 
+  
+}
+#firstname{
+border-radius: 05px;
+border-color:rgb(255, 255, 255);
+margin-top: 05px;
+height: 20px;
+}
+#name{
+    color: rgb(255, 255, 255);
+    
+}
+#name1{
+    color: rgb(253, 253, 253);
+
+}
+#firstname1{
+border-radius: 05px;
+height: 20px;
+margin-top: 05px;
+
+
+}
+#user{
+    color: rgb(255, 255, 255);
+    
+
+}
+#username{
+    border-radius: 05px;
+    height: 20px;
+    margin-top: 05px;
+}
+#email{
+    color: rgb(0, 0, 0);
+    border-radius: 05px;
+    height: 25px;
+    margin-top: 05px;
+    width: 250px;
+}
+#email1{
+    color: rgb(255, 255, 255);
+}
+#pass1{
+    color: rgb(255, 251, 251);
+}
+#pass{
+    color: rgb(0, 0, 0);
+    border-radius: 05px;
+    height: 25px;
+    margin-top: 05px;
+    width: 270px;
+}
+#add1{
+    color: rgb(255, 248, 248);
+}
+#add{
+    color: rgb(0, 0, 0);
+    border-radius: 05px;
+    height: 25px;
+    margin-top: 05px;
+    width: 550px;
+}
+#cities{
+    margin-top: 05px;
+    border-radius: 05px;
+    height: 30px;
+    width: 270px;
+}
+#city{
+    color: rgb(255, 255, 255);
+}
+
+#states{
+    color: rgb(255, 255, 255);
+
+}
+#check{
+    color: white;
+   
+}
+#sign{
+    color: white;
+   
+    
+   
+}
+#in{
+    border: 2px solid;
+    width: fit-content;
+    padding:05px;
+    border-radius: 02px;
+    background-color: rgb(14, 108, 190);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+#in:hover{
+    background-color: rgb(5, 58, 78);
+    transform: scale(1.05);
+}
+#zip{
+    color: white;
+    
+}
+#zip1{
+    margin-top: 10px;
+    height: 25px;
+    width: 100px;
+    border-radius: 05px;
+}
+#states1{
+    height: 30px;
+    width:260px;
+    border-radius: 05px;
+    margin-top: 05px;
+}

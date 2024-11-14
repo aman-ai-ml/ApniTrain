@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="interface.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APNI TRAIN</title>
+</head>
+<body>
+   <div class="body">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#Scroll">Policy</a></li>
+                <li><a href="booking_system.html">Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#Scroll">Support</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <center><div class="sign">
+        <a href="form.html">Sign in</a>
+    </div></center>
+  <div class="logo">
+        <img class="logo" src="apnitrain-logo1-2'.png" alt="" width="100px
+        ">
+    </div>
+        <div class="apnitrain">
+            <p id="apni">APNI <span id="Train">TRAIN</span></p>
+        </div>
+        
+    
+    <div class="slogan">
+        <h1>Lightning Fast Ticket Booking</h1>
+        <p class="fast" ><span id="orange">Apni Train</span> Har <span id="green">Safar Ka Yaar</span></p>
+        
+    </div><br></br>
+
+    <!-- <form action="abc.train" method="post">
+        <center><section class="main_box">
+
+        
+        <div class="from1">
+            <label for="from" id="f1">From:</label><br>
+            <input type="text" id="from" placeholder="Enter starting station">
+
+        </div><br>
+       <div class="to1">
+        <label for="to" id="t1">To:</label><br>
+        <input type="text" id="to" placeholder="Enter the destination ">
+       </div><br>
+       <div class="date1">
+        <label for="date" id="d1">Date:</label><br>
+        <input type="date" id="date">
+       </div>
+       <div class="sub">
+        <center><a id="Submit" href="sample.html">Submit</a></center>
+       </div>
+    </section></center>
+
+
+    </form> -->
+
+
+            <!-- <center><div style="margin-top: -30px;">
+                <a style="border:2px solid ; font-size: 30px;padding-left: 20px;padding-right: 20px;border-radius: 05px; text-decoration: none ;background-color: green; color: white;    " href="booking_system.html">Book Now </a>
+                
+            </div></center>
+             -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+                             <center><div class="container">
+        <h1>Train Booking System</h1>
+
+        <form class="booking-form">
+            <label for="trainNumber">Train Number:</label>
+            <input type="text" id="trainNumber" name="trainNumber" placeholder="Enter train number" required>
+
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="Departure station" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="Destination station" required>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="class">Class:</label>
+            <select id="class" name="class" required>
+                <option value="sleeper">Sleeper</option>
+                <option value="3AC">3AC</option>
+                <option value="2AC">2AC</option>
+                <option value="1AC">1AC</option>
+            </select>
+            
+
+            <label for="passengerCount">Number of Passengers:</label>
+            <input type="number" id="passengerCount" name="passengerCount" min="1" max="10" required>
+
+            <button  class="book" type="submit"><a  class="now" href="sample.html" >Book Now</a></button>
+            
+        </form>
+
+      
+    </div></center> 
+
+       
+
+ </div>
+
+<div id="main_container">
+    
+    <div id="box1">
+        <img src="discounts.png" alt="" width="50" style="margin-left: 10px;
+        margin-top: 40px;">
+        <h3>Discounts</h3>
+       <ul3>
+            <li>Instant 50 Rs OFF on your first ticket booking on app</li>
+            <li>Additional discount for regular customers and referrals</li>
+            <li>More savings Through ApniTrain Coins.</li>
+        </ul3>
+    </div>
+    <div class="box2">
+        <img src="experience.png" alt="" width="50" style="margin-left: 10px;
+        margin-top: 40px;">
+        <h3>Easy Bookings</h3>
+       <ul3>
+            <li>Easy and instant Train tickey booking on app</li>
+            <li>Option to book ticket on Live chat and phone </li>
+            <li>All popular payment options available </li>
+        </ul3>
+    </div>
+    <div class="box3">
+        <img src="phone-icon.png" alt="" width="50" style="margin-left: 10px;
+        margin-top: 40px;">
+        <h3>Hassle-free Experiences</h3>
+       <ul3>
+            <li>Guaranted booking and priority support</li>
+            <li>Instant Customer support on live chat and phone </li>
+            <li>Free ticket cancellation and instant refund</li>
+        </ul3>
+    </div>
+</div>
+<br><br>
+<div class="question">
+   <center> <h1>Frequently Asked Questions</h1><br></center>
+    <p  onclick="toggleInformation()" class="click">What should I do after booking a ticket?</p>
+    
+    <div id="information" style="display: none; font-size: 25px; margin-left: 20px;"   ><hr>
+        After booking a ticket, you can see your ticket in the My Booking section in the app or website. You will get the verification message on your mobile via SMS and WhatsApp.
+    </div>
+    <hr>
+    <p onclick="toggleInformation1()" class="click">Which train information is available on the ApniTrain  Website and App?</p>
+    <div id="information1" style="display: none; font-size: 25px; margin-left: 20px;"><hr>
+        Apnitrain provides information on RSRTC. Government, Lok Parivahan, and private buses. It includes Train number, AC status, Seat availability (including sleeper and sharing sleeper options), Train departure time and timetable, and complete Train  routes
+    </div><hr>
+    <p onclick="toggleInformation2()" class="click">How will the Train conductor verify the ticket?</p>
+    <div id="information2" style="display: none; font-size: 25px; margin-left: 20px;"><hr>
+        Tickets booked through the ApniTrain app have a unique PNR number and QR code. The TT will check and verify the ticket by scanning the QR code or PNR
+    </div><hr>
+    <p onclick="toggleInformation3()" class="click">Can I get a refund if my traveling plans are canceled?</p>
+    <div id="information3" style="display: none; font-size: 25px; margin-left: 20px;"><hr>
+        If you cancel a ticket, you will receive a refund according to the cancellation policy
+    </div><hr>
+</div>
+<center><div class="route">
+   
+       
+    <h3  class="heading" style="text-align: center; margin-top: 100px;">Popular Routes</h3>
+    <p>
+<a class="p1" href="#">
+Bidasar to Churu &nbsp;|&nbsp; Churu to Bidasar &nbsp;| &nbsp;Sheopur to Itawa |&nbsp; Itawa to Sheopur |&nbsp;&nbsp; Udaipurwati to Srimadhopur&nbsp; | &nbsp;Srimadhopur to Udaipurwati |&nbsp; Shri ganganagar to Mirjewala &nbsp;| Mirjewala to Shri ganganagar |&nbsp; Dausa to Didwana |&nbsp; Didwana to Dausa |&nbsp; Dausa to Bhusawar |&nbsp; Bhusawar to Dausa |&nbsp; Sitapura to Lalsot |&nbsp; Lalsot to Sitapura | &nbsp;Sunel to Jhalrapatan |&nbsp; Jhalrapatan to Sunel | Sitapura to Niwai | Niwai to Sitapura | Sitapura to Chaksu | Chaksu to Sitapura | Chaksu to Lalsot | Lalsot to Chaksu | Sunel to Pirawa | Pirawa to Jhalawar | Bassi to Lalsot | Lalsot to Bassi | Nokha to Panchoo | Panchoo to Nokha | Bikaner to Panchoo | Panchoo to Bikaner | Nokha to Jasrasar | Jasrasar to Nokha | Jasrasar to Bikaner | Bikaner to Jasrasar | Jasrasar to Napasar | Napasar to Jasrasar | Bikaner to Mundasar | Mundasar to Bikaner | Bikaner to Sinthal | Sinthal to Bikaner | Bikaner to Jhajhu | Jhajhu to Bikaner | Deshnok to Bikaner | Bikaner to Nokha | Nokha to Bikaner | Bikaner to Deshnok | Bikaner to Bhamatsar | Bhamatsar to Bikaner | Bikaner to Himatsar | Himatsar to Bikaner | Bikaner to Sadhasar | Sadhasar to Bikaner | Bikaner to Bidasar | Bidasar to Bikaner | Bikaner to Kishansar | Kishansar to Bikaner | Bikaner to Jangloo | Jangloo to Bikaner | Alwar to Barodameo | Barodameo to Alwar 
+</p></a>
+<h3  class="heading" style="text-align: center;">ApniTrain Available In These Cities</h3>
+<a class="p1" href="#"><p>
+Bikaner | Nokha | Deshnok | Bidasar | Churu | Sheopur | Itawa | Udaipurwati | Srimadhopur | Shri Ganganagar | Mirjewala | Dausa | Didwana | Bhusawar | Sitapura | Lalsot | Sunel | Jhalrapatan | Niwai | Chaksu | Pirawa | bassi | Panchoo | Jasrasar | Napasar | Mundasar | Sinthal| Jhajhu | Bhamatsar | Himatsar | Sadhasar | Bidasar | Kishansar | Jangloo | Alwar 
+</p></a>
+</div></center>
+
+
+
+
+<div class="back">
+    <div >
+        <img class="qr " src="ApniTrain_qr.png" alt="" width="200 ">
+    </div>
+    <div>
+        <img  class="play"  src="play_store-1.png  " alt="" width="160">
+    </div>
+
+    <div class="about">
+        <nav1 id="Scroll">
+            <ul1>
+                <li><a class="hover" href="#box1">About &nbsp;ApniTrain </a></li>
+                <li><a class="hover" href="term_condition.html">Terms &  Conditions</a></li>
+                <li><a class="hover" href="privacy1.html">Privacy Policy</a></li>
+                <li><a class="hover" href="refund.html">Refund Policy</a></li>
+                
+               
+            </ul1>
+        </nav1>
+       
+    </div>
+    <div class="add">
+        <footer>
+            <div>
+                <p> <img src="location.webp" alt="" width="20"> ApniYatra Private Limited</p>
+                <p>Tower B2, SPAZE ITECH PARK, 1054-55, Sector 49, , jhunjhunu 122018</p>
+                <p>
+                    &#128222; +91 91093 39109 &nbsp; &#9993; support@apnitrain.com
+                </p>
+            </div>
+            <hr class="line"  width="600px ">
+            <div class="icon">
+                <img  class="facebook" src="facebook.png" alt="" width="30">
+                <img  class="facebook" src="insta.png" alt="" width="30"> 
+                <img class="facebook"  src="twitter-1.png" alt="" width="30">
+            </div>
+            
+            <p>&copy; 2024 ApniTrain ALL RIGHTS RESERVED</p>
+        </footer>
+    
+    </div>
+   
+</div>
+<script>
+   
+function toggleInformation() {
+  var informationDiv = document.getElementById("information");
+  if (informationDiv.style.display === "none") {
+    informationDiv.style.display = "block";
+  } else {
+    informationDiv.style.display = "none";
+  }
+}
+
+function toggleInformation1 (){
+    var informationDiv = document.getElementById("information1");
+  if (informationDiv.style.display === "none") {
+    informationDiv.style.display = "block";
+  } else {
+    informationDiv.style.display = "none";
+  }
+}
+function toggleInformation2 (){
+     a = document.getElementById("information2");
+  if (a.style.display === "none") {
+    a.style.display = "block";
+  } else {
+    a.style.display = "none";
+  }
+}
+function toggleInformation3 (){
+    a = document.getElementById("information3");
+  if (a.style.display === "none") {
+    a.style.display = "block";
+  } else {
+    a.style.display = "none";
+  }
+}
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
